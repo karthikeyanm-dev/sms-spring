@@ -91,7 +91,6 @@
         <a href="/all-students" class="btn-cancel">Cancel &mdash; go back to all students</a>
     </div>
 </div>
-
 <footer>&copy; 2026 StudentApp Made with 💙 by Karthi</footer>
 </body>
 </html>

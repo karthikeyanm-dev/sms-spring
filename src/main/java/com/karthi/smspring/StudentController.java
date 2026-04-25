@@ -29,7 +29,7 @@ public class StudentController {
         return "all-students";
     }
 
-    @RequestMapping(value = "/submit")
+    @RequestMapping("/submit")
     public String handleSubmit(@ModelAttribute StudentModel student, Model model) {
         if (student.getId() == 0) {
             studentService.addStudent(student);   // no id = new student
